@@ -1,0 +1,79 @@
+   body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   } 
+#gora{
+    background-color: crimson;
+   display: flex; 
+   flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    
+    
+}
+h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 1000px;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+#przyciski{
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 1400px;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+,#przycisk1,#przycisk2,#przycisk3,#przycisk4,#przycisk5{
+    height: 150px;
+    width: 250px;
+    background-color: crimson;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#przycisk1:hover,#przycisk2:hover,#przycisk3:hover,#przycisk4:hover,#przycisk5:hover{
+    border: 2px solid white;}
+
+
+    h3,h4,p{
+    color: white;
+}
+#bloczek{
+    width:  99%;
+    height: 55%;
+    background-color: whitesmoke;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   
+}
+#bloczek > p{
+    color: black;
+    justify-content: flex-start;
+    font-size: 30px;
+}
+#bloczek > h1{
+    color: black;
+    letter-spacing: 10px;
+    text-align: center;
+}
+#cos{
+    flex-direction: row;
+    display: flex;
+}
