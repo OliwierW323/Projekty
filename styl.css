@@ -37,7 +37,7 @@ img{
     justify-content: space-around;
     text-align: center;
 }
-,#przycisk1,#przycisk2,#przycisk3,#przycisk4,#przycisk5{
+#przycisk1,#przycisk2,#przycisk3,#przycisk4,#przycisk5{
     height: 150px;
     width: 250px;
     background-color: crimson;
@@ -68,6 +68,9 @@ img{
     justify-content: flex-start;
     font-size: 30px;
 }
+#bloczek > #dupa{
+    padding: 10px;
+}
 #bloczek > h1{
     color: black;
     letter-spacing: 10px;
@@ -76,4 +79,27 @@ img{
 #cos{
     flex-direction: row;
     display: flex;
+}
+#bloczek > ul{
+    font-size: 30px;
+}
+#obrazek{
+    display: flex;
+    flex-direction: row-reverse;
+}
+#obrazek > img{
+    align-items: end;
+    justify-content: flex-end;
+    height: 250px;
+    width: 250px;
+}
+#tekst >p{
+    color: black;
+    font-size: 20px;
+    flex-direction: row-reverse;
+
+}
+#tekst{
+    display: flex;
+    flex-direction: row-reverse;
 }
